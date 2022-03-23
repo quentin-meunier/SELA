@@ -1,4 +1,4 @@
-# SELA: a SYmbolic Expression Leakage Analyzer
+# SELA: a Symbolic Expression Leakage Analyzer
 
 SELA is a formal verification tool for the probing security of masked implementations. It provides a way for verifying probing security on a set of symbolic expressions.
 
@@ -13,7 +13,7 @@ SELA is the ancestor of [LeakageVerif](https://github.com/quentin-meunier/Leakag
 
 ## Installation
 
-As a python library, SELA only needs to be cloned to a directory called `sela`, which is the name of the python module it provides. The parent directory of `leakage_verif` must be added to the PYTHONPATH environment variable. SELA has two expression representations: one using internal SELA expressions, and one using the python z3 front-end (z3py) expressions. In order to use those, z3 python module must be installed as well. Using z3 expessions provides better results in some cases, as illustrated in the article. This can be made by setting the variable `builtinExp' to `False' in the `config.py' file.
+As a python library, SELA only needs to be cloned to a directory called `sela`, which is the name of the python module it provides. The parent directory of `leakage_verif` must be added to the PYTHONPATH environment variable. SELA has two expression representations: one using internal SELA expressions, and one using the python z3 front-end (z3py) expressions. In order to use those, z3 python module must be installed as well. Using z3 expessions provides better results in some cases, as illustrated in the article. This can be made by setting the variable `builtinExp` to `False` in the `config.py` file.
 
 
 ## Usage
@@ -81,6 +81,7 @@ m = symbol('m', 'M', 8)
 e = ((p0 ^ m) | (p1 & constant(0, 8))) ^ (m & constant(0xFF, 8) + (p0 ^ p0))
 simplify(e)
 print('simplifiedExp: %s' % e)
+```
 
 Several simplification strategies are implemented, and detailed in the article. The default one simplfies an expression at the start of the verification process and after each replacement. The strategy to use can be configured in the `config.py' file.
 
