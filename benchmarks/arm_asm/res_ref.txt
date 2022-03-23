@@ -1,0 +1,127 @@
+###########################
+###       Results       ###
+###########################
+### 350 instructions in analysed region
+### Results for leakage in value ###
+# 0 leakages found / 313 expressions analysed
+# reg  0:  26 /  26 leakage-free instruction
+# reg  1:   9 /   9 leakage-free instruction
+# reg  2:  59 /  59 leakage-free instruction
+# reg  3:  93 /  93 leakage-free instruction
+# reg  4:  26 /  26 leakage-free instruction
+# reg  5:  17 /  17 leakage-free instruction
+# reg  6:   4 /   4 leakage-free instruction
+# reg  7:  10 /  10 leakage-free instruction
+# reg  8:  17 /  17 leakage-free instruction
+# reg  9:   9 /   9 leakage-free instruction
+# reg 10: -
+# reg 11: -
+# reg 12:  17 /  17 leakage-free instruction
+# reg 13: -
+# reg 14:  26 /  26 leakage-free instruction
+# reg 15: -
+### Results for leakage in transition ###
+# 5 leakages found / 313 expressions analysed
+# reg  0:  26 /  26 leakage-free instruction
+# reg  1:   9 /   9 leakage-free instruction
+# reg  2:  57 /  59 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8061] : 1
+#    [0x8089] : 1
+# reg  3:  93 /  93 leakage-free instruction
+# reg  4:  25 /  26 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8057] : 1
+# reg  5:  17 /  17 leakage-free instruction
+# reg  6:   4 /   4 leakage-free instruction
+# reg  7:   9 /  10 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8065] : 1
+# reg  8:  17 /  17 leakage-free instruction
+# reg  9:   9 /   9 leakage-free instruction
+# reg 10: -
+# reg 11: -
+# reg 12:  17 /  17 leakage-free instruction
+# reg 13: -
+# reg 14:  25 /  26 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x809f] : 1
+# reg 15: -
+### Results for leakage in transition per bit ###
+# 4 leakages found / 313 expressions analysed
+# reg  0:  26 /  26 leakage-free instruction
+# reg  1:   9 /   9 leakage-free instruction
+# reg  2:  58 /  59 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8061] : 1
+# reg  3:  93 /  93 leakage-free instruction
+# reg  4:  25 /  26 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8057] : 1
+# reg  5:  17 /  17 leakage-free instruction
+# reg  6:   4 /   4 leakage-free instruction
+# reg  7:   9 /  10 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8065] : 1
+# reg  8:  17 /  17 leakage-free instruction
+# reg  9:   9 /   9 leakage-free instruction
+# reg 10: -
+# reg 11: -
+# reg 12:  17 /  17 leakage-free instruction
+# reg 13: -
+# reg 14:  25 /  26 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x809f] : 1
+# reg 15: -
+### Results for leakage in transition xor ###
+# 4 leakages found / 313 expressions analysed
+# reg  0:  26 /  26 leakage-free instruction
+# reg  1:   9 /   9 leakage-free instruction
+# reg  2:  57 /  59 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8061] : 1
+#    [0x8089] : 1
+# reg  3:  93 /  93 leakage-free instruction
+# reg  4:  26 /  26 leakage-free instruction
+# reg  5:  17 /  17 leakage-free instruction
+# reg  6:   4 /   4 leakage-free instruction
+# reg  7:   9 /  10 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8065] : 1
+# reg  8:  17 /  17 leakage-free instruction
+# reg  9:   9 /   9 leakage-free instruction
+# reg 10: -
+# reg 11: -
+# reg 12:  17 /  17 leakage-free instruction
+# reg 13: -
+# reg 14:  25 /  26 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x809f] : 1
+# reg 15: -
+### Results for leakage in transition xor per bit ###
+# 2 leakages found / 313 expressions analysed
+# reg  0:  26 /  26 leakage-free instruction
+# reg  1:   9 /   9 leakage-free instruction
+# reg  2:  58 /  59 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x8061] : 1
+# reg  3:  93 /  93 leakage-free instruction
+# reg  4:  26 /  26 leakage-free instruction
+# reg  5:  17 /  17 leakage-free instruction
+# reg  6:   4 /   4 leakage-free instruction
+# reg  7:  10 /  10 leakage-free instruction
+# reg  8:  17 /  17 leakage-free instruction
+# reg  9:   9 /   9 leakage-free instruction
+# reg 10: -
+# reg 11: -
+# reg 12:  17 /  17 leakage-free instruction
+# reg 13: -
+# reg 14:  25 /  26 leakage-free instruction
+#    Non leakage-free instructions:
+#    [0x809f] : 1
+# reg 15: -
+
+real    5m58.864s
+user    5m57.782s
+sys     0m1.346s
+
